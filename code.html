@@ -1,0 +1,916 @@
+<!DOCTYPE html><html class="dark scroll-smooth" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Video Express &amp; Pizza | Craft Pizzeria in Aspermont, TX</title>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Google Fonts: Playfair Display & Inter -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Tailwind CSS with plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Theme Configuration verbatim from instructions -->
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-secondary-fixed-variant": "#910809",
+            "on-primary": "#402d00",
+            "background": "#151312",
+            "tertiary-fixed": "#d5e9bb",
+            "primary-fixed": "#ffdf9e",
+            "surface-variant": "#373433",
+            "surface-tint": "#ebc166",
+            "on-primary-container": "#4f3900",
+            "surface-bright": "#3c3837",
+            "on-background": "#e8e1df",
+            "on-primary-fixed": "#261a00",
+            "tertiary": "#b9cda0",
+            "on-secondary": "#690003",
+            "secondary-fixed-dim": "#ffb4aa",
+            "error-container": "#93000a",
+            "secondary-container": "#950c0b",
+            "outline-variant": "#4e4637",
+            "outline": "#9a8f7e",
+            "surface-container": "#221f1e",
+            "on-tertiary-container": "#324220",
+            "surface-container-low": "#1d1b1a",
+            "on-tertiary-fixed": "#111f03",
+            "surface": "#151312",
+            "on-tertiary": "#253515",
+            "on-surface-variant": "#d1c5b2",
+            "inverse-on-surface": "#33302e",
+            "primary": "#ebc166",
+            "on-error-container": "#ffdad6",
+            "tertiary-fixed-dim": "#b9cda0",
+            "on-surface": "#e8e1df",
+            "primary-fixed-dim": "#ebc166",
+            "secondary": "#ffb4aa",
+            "tertiary-container": "#9bae83",
+            "on-secondary-fixed": "#410001",
+            "surface-dim": "#151312",
+            "surface-container-high": "#2c2928",
+            "secondary-fixed": "#ffdad5",
+            "surface-container-lowest": "#100e0d",
+            "on-secondary-container": "#ff9f92",
+            "on-primary-fixed-variant": "#5b4300",
+            "error": "#ffb4ab",
+            "inverse-primary": "#795902",
+            "inverse-surface": "#e8e1df",
+            "on-error": "#690005",
+            "surface-container-highest": "#373433",
+            "primary-container": "#c9a24b",
+            "on-tertiary-fixed-variant": "#3b4c29"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          "spacing": {
+            "gutter-tablet": "1.25rem",
+            "margin-tablet": "2rem",
+            "gutter-mobile": "1rem",
+            "margin": "4rem",
+            "space-lg": "1.5rem",
+            "gutter": "1.5rem",
+            "space-xs": "0.25rem",
+            "space-xl": "3rem",
+            "margin-mobile": "1.25rem",
+            "space-sm": "0.5rem",
+            "space-md": "1rem"
+          },
+          "fontFamily": {
+            "display-md": ["Playfair Display"],
+            "body-md": ["Inter"],
+            "body-lg": ["Inter"],
+            "display-lg": ["Playfair Display"],
+            "display-lg-mobile": ["Playfair Display"],
+            "label-lg": ["Inter"],
+            "label-sm": ["Inter"],
+            "display-md-mobile": ["Playfair Display"],
+            "headline-sm": ["Playfair Display"],
+            "label-md": ["Inter"],
+            "body-sm": ["Inter"],
+            "headline-lg": ["Playfair Display"],
+            "headline-md": ["Playfair Display"]
+          },
+          "fontSize": {
+            "display-md": ["44px", { "lineHeight": "52px", "letterSpacing": "-0.01em", "fontWeight": "500" }],
+            "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }],
+            "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+            "display-lg": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "600" }],
+            "display-lg-mobile": ["38px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+            "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.08em", "fontWeight": "600" }],
+            "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.12em", "fontWeight": "500" }],
+            "display-md-mobile": ["32px", { "lineHeight": "38px", "letterSpacing": "-0.01em", "fontWeight": "500" }],
+            "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "400" }],
+            "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "500" }],
+            "body-sm": ["13px", { "lineHeight": "20px", "fontWeight": "400" }],
+            "headline-lg": ["32px", { "lineHeight": "40px", "fontWeight": "500" }],
+            "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "500" }]
+          }
+        },
+      },
+    }
+  </script>
+<!-- Film-strip perforation & ambient glow inline styles -->
+<style>
+    .film-strip-divider {
+      background-image: radial-gradient(circle, rgba(201, 162, 75, 0.4) 1px, transparent 1px);
+      background-size: 16px 4px;
+      height: 4px;
+      opacity: 0.35;
+    }
+    .sprocket-border-b {
+      position: relative;
+    }
+    .sprocket-border-b::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: repeating-linear-gradient(90deg, rgba(201, 162, 75, 0.3) 0, rgba(201, 162, 75, 0.3) 6px, transparent 6px, transparent 12px);
+    }
+    .amber-glow {
+      box-shadow: 0 12px 32px -4px rgba(15, 13, 12, 0.8), 0 0 24px 0 rgba(201, 162, 75, 0.08);
+    }
+    .sauce-glow:hover {
+      box-shadow: 0 8px 24px -2px rgba(179, 38, 30, 0.4);
+    }
+  </style>
+<!-- JSON-LD LocalBusiness / Restaurant Schema -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Video Express & Pizza",
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591",
+    "telephone": "+19409893451",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "121 W 6th St",
+      "addressLocality": "Aspermont",
+      "addressRegion": "TX",
+      "postalCode": "79502",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 33.1418,
+      "longitude": -100.2290
+    },
+    "servesCuisine": ["Pizza", "Italian-American", "Calzones", "Wings"],
+    "priceRange": "$$",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "59"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "11:00",
+        "closes": "21:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Sunday",
+        "opens": "12:00",
+        "closes": "20:00"
+      }
+    ],
+    "hasMenu": "#menu"
+  }
+  </script>
+</head>
+<body class="bg-surface text-on-surface font-body-md selection:bg-primary-container selection:text-on-primary-container antialiased">
+<!-- TopNavBar (Shared Component JSON Conformance) -->
+<header class="bg-surface/85 backdrop-blur-md dark:bg-surface/85 docked full-width top-0 sticky z-50 border-b border-outline-variant/20 dark:border-outline-variant/20 shadow-[0_12px_32px_-4px_rgba(15,13,12,0.8),0_0_24px_0_rgba(201,162,75,0.08)] transition-all duration-300 ease-in-out">
+<div class="flex justify-between items-center w-full px-6 md:px-margin max-w-[1360px] mx-auto h-20">
+<!-- Brand Logo -->
+<a class="flex items-center gap-3 group" href="#">
+<span class="w-8 h-8 rounded-full bg-secondary-container/30 border border-primary/30 flex items-center justify-center text-primary group-hover:border-primary transition-colors">
+<span class="material-symbols-outlined text-[18px]">local_pizza</span>
+</span>
+<span class="font-display-md text-headline-md tracking-wider text-primary dark:text-primary uppercase font-bold">
+          Video Express &amp; Pizza
+        </span>
+</a>
+<!-- Desktop Navigation Links from JSON: ["Menu", "Story", "Gallery", "Reviews", "Visit & Order"] -->
+<nav class="hidden md:flex items-center space-x-8 text-label-md font-label-md">
+<a class="text-primary font-semibold border-b border-primary pb-1 hover:text-primary transition-colors duration-200" href="#menu">Menu</a>
+<a class="text-on-surface-variant font-medium pb-1 hover:text-primary transition-colors duration-200" href="#story">Story</a>
+<a class="text-on-surface-variant font-medium pb-1 hover:text-primary transition-colors duration-200" href="#signature">Gallery</a>
+<a class="text-on-surface-variant font-medium pb-1 hover:text-primary transition-colors duration-200" href="#reviews">Reviews</a>
+<a class="text-on-surface-variant font-medium pb-1 hover:text-primary transition-colors duration-200" href="#visit">Visit &amp; Order</a>
+</nav>
+<!-- Trailing Primary & Secondary Actions + Trailing Icons from JSON -->
+<div class="flex items-center gap-4">
+<!-- Call Us Link -->
+<a class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-primary/40 text-primary hover:bg-primary/10 transition-colors font-label-md text-label-md" href="tel:+19409893451">
+<span class="material-symbols-outlined text-[16px]">local_phone</span>
+<span>Call Us</span>
+</a>
+<!-- Reserve Table / Order Now CTA -->
+<a class="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-secondary-container text-on-surface font-label-md text-label-md hover:bg-on-secondary-fixed-variant transition-all duration-200 sauce-glow border border-primary/20" href="tel:+19409893451">
+<span>Reserve Table</span>
+</a>
+<!-- Mobile Menu Toggle Button -->
+<button id="open-cart-btn" aria-label="Open Cart" onclick="openCartModal()" class="relative inline-flex items-center justify-center p-2.5 rounded-lg border border-primary/30 text-primary hover:bg-primary/10 transition-colors focus:outline-none min-h-[44px] min-w-[44px]"><span class="material-symbols-outlined text-[20px]">shopping_bag</span><span id="cart-count-badge" class="absolute -top-1.5 -right-1.5 w-5 h-5 rounded-full bg-secondary-container text-on-surface border border-primary/40 text-[11px] font-bold flex items-center justify-center transition-transform scale-100">0</span></button><button aria-label="Toggle navigation menu" class="md:hidden text-primary p-2 focus:outline-none" id="mobile-menu-btn">
+<span class="material-symbols-outlined text-[24px]">menu</span>
+</button>
+</div>
+</div>
+<!-- Mobile Navigation Drawer -->
+<div class="hidden md:hidden px-6 py-4 bg-surface-container border-b border-outline-variant/30 flex flex-col space-y-4" id="mobile-menu">
+<a class="text-primary font-semibold py-1" href="#menu">Menu</a>
+<a class="text-on-surface-variant hover:text-primary py-1" href="#story">Story</a>
+<a class="text-on-surface-variant hover:text-primary py-1" href="#signature">Gallery</a>
+<a class="text-on-surface-variant hover:text-primary py-1" href="#reviews">Reviews</a>
+<a class="text-on-surface-variant hover:text-primary py-1" href="#visit">Visit &amp; Order</a>
+<a class="flex items-center gap-2 text-primary pt-2 border-t border-outline-variant/20" href="tel:+19409893451">
+<span class="material-symbols-outlined text-[18px]">local_phone</span>
+<span>+1 (940) 989-3451</span>
+</a>
+</div>
+</header>
+<!-- HERO SECTION -->
+<section class="relative min-h-[85vh] flex items-center overflow-hidden border-b border-outline-variant/20">
+<!-- Atmospheric Ambient Lighting & Dark Texture Background -->
+<div class="absolute inset-0 bg-gradient-to-r from-surface-container-lowest via-surface/90 to-surface-container-lowest/80 z-10 pointer-events-none"></div>
+<div class="absolute inset-0 bg-[radial-gradient(circle_at_30%_40%,rgba(201,162,75,0.12),transparent_70%)] z-10 pointer-events-none"></div>
+<!-- Hero Background Image (Atmospheric Pizzeria Interior) -->
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover object-center filter brightness-[0.45] scale-105 transform" data-alt="A cinematic, candlelit rustic luxury pizzeria interior with deep charcoal walls, reclaimed timber tables, glowing amber glass fixtures, and an artisan wood-fired stone oven casting warm fiery light across an intimate Texas dining lounge." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDHWIbDFLZWKF5Vac8oRh44d3tyP_J96Bkg1bzco5OkxvBK1YzJcK-izD8HHu1tneTke4QwvH26d5zQl4o7ABwzN724wwZR0PuzARMr2t6L2-VNkK9inSHOGwkzaSc0nP6LFUkiGGhPFpAT-eB8_Sj_jCR6z4YwnstgWcCs7uMNFdWQVlNtj_D_bgY8keCl7ZwCzrGC7e-yar78zcPZ3VWRAQi7ejzJKmlCnapK3j5z">
+</div>
+<!-- Hero Content Container -->
+<div class="relative z-20 w-full max-w-[1360px] mx-auto px-6 md:px-margin py-space-xl">
+<div class="max-w-2xl space-y-6">
+<!-- Live Open/Closed Status Badge & 4.8-Star Proof -->
+<div class="flex flex-wrap items-center gap-3">
+<span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-high/90 border border-primary/20 backdrop-blur-sm">
+<span class="w-2 h-2 rounded-full bg-tertiary animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">Open Now · 11:00 AM – 9:00 PM</span>
+</span>
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high/70 border border-outline-variant/30 text-primary">
+<span class="material-symbols-outlined text-[16px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm font-semibold text-on-surface">4.8 Rating</span>
+<span class="text-on-surface-variant font-label-sm text-label-sm">· Loved by 59 guests on Google</span>
+</div>
+</div>
+<!-- Headline -->
+<h1 class="font-display-lg md:text-display-lg text-display-lg-mobile text-on-surface font-semibold tracking-tight">
+          Handcrafted Pizza. <br>
+<span class="italic text-primary font-light">Small-Town Heart.</span>
+</h1>
+<!-- Subheadline -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+          Where West Texas hospitality meets artisan stone hearth dough. Slow-proofed crusts, handcrafted calzones, and unforgettable cinematic evenings on 6th Street in Aspermont.
+        </p>
+<!-- Service Offering Chips -->
+<div class="flex flex-wrap items-center gap-2 pt-1">
+<span class="px-2.5 py-1 rounded-lg bg-surface-variant/40 border border-outline-variant/40 text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">Dine-in</span>
+<span class="text-outline-variant">•</span>
+<span class="px-2.5 py-1 rounded-lg bg-surface-variant/40 border border-outline-variant/40 text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">Takeout</span>
+</div>
+<!-- Hero CTAs -->
+<div class="flex flex-wrap items-center gap-4 pt-4">
+<a class="inline-flex items-center gap-2 px-6 py-3.5 rounded-lg bg-secondary-container text-on-surface font-label-lg text-label-lg hover:bg-on-secondary-fixed-variant transition-all duration-200 amber-glow border border-primary/20" href="tel:+19409893451">
+<span class="material-symbols-outlined text-[18px]">local_phone</span>
+<span>Call to Order (940) 989-3451</span>
+</a>
+<a class="inline-flex items-center gap-2 px-6 py-3.5 rounded-lg bg-transparent text-primary border border-primary font-label-lg text-label-lg hover:bg-primary/10 transition-colors" href="#menu" onclick="event.preventDefault(); document.querySelector('#menu')?.scrollIntoView({ behavior: 'smooth' });">
+<span>Explore Menu</span>
+<span class="material-symbols-outlined text-[18px]">arrow_downward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Decorative Film Strip Sprocket Accent at Bottom -->
+<div class="absolute bottom-0 inset-x-0 film-strip-divider z-20"></div>
+</section>
+<!-- HIGHLIGHT FEATURES / WHY GUESTS LOVE US -->
+<section class="py-16 bg-surface-container-low border-b border-outline-variant/20">
+<div class="max-w-[1360px] mx-auto px-6 md:px-margin">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Feature 1 -->
+<div class="flex items-start gap-4 p-5 rounded-lg bg-surface-container/60 border border-outline-variant/20">
+<div class="w-12 h-12 rounded-lg bg-primary/10 border border-primary/30 flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[24px]">local_florist</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1">Fresh Ingredients</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Daily slow-proofed dough, vine-ripened simmered sauce, and whole-milk mozzarella.</p>
+</div>
+</div>
+<!-- Feature 2 -->
+<div class="flex items-start gap-4 p-5 rounded-lg bg-surface-container/60 border border-outline-variant/20">
+<div class="w-12 h-12 rounded-lg bg-primary/10 border border-primary/30 flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[24px]">group</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1">Small-Town Staff</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Genuine Stonewall County warmth where every guest is greeted like a lifelong neighbor.</p>
+</div>
+</div>
+<!-- Feature 3 -->
+<div class="flex items-start gap-4 p-5 rounded-lg bg-surface-container/60 border border-outline-variant/20">
+<div class="w-12 h-12 rounded-lg bg-primary/10 border border-primary/30 flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[24px]">movie</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1">Cozy Atmosphere</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Subtle cinematic nostalgia blended with a quiet, candlelit Texas evening ambiance.</p>
+</div>
+</div>
+<!-- Feature 4 -->
+<div class="flex items-start gap-4 p-5 rounded-lg bg-surface-container/60 border border-outline-variant/20">
+<div class="w-12 h-12 rounded-lg bg-primary/10 border border-primary/30 flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[24px]">takeout_dining</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1">Dine-In &amp; Takeout</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Grab a hot pie on your way home or sink into a comfortable booth with family.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SIGNATURE DISHES SHOWCASE (6 CARDS) -->
+<section class="py-space-xl bg-surface" id="signature">
+<div class="max-w-[1360px] mx-auto px-6 md:px-margin">
+<!-- Section Header -->
+<div class="text-center max-w-xl mx-auto mb-16 space-y-3">
+<span class="font-label-sm text-label-sm text-primary tracking-widest uppercase font-semibold">Artisan Creations</span>
+<h2 class="font-headline-lg md:text-headline-lg text-headline-md text-on-surface">Signature House Selections</h2>
+<div class="w-12 h-0.5 bg-primary/40 mx-auto"></div>
+<p class="font-body-md text-body-md text-on-surface-variant">Each dish is crafted to order with slow-fermented crust and generous, premium toppings.</p>
+</div>
+<!-- Bento-style 6 Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"><div class="group rounded-xl bg-surface-container border border-outline-variant/20 overflow-hidden hover:border-primary/40 transition-all duration-300 amber-glow flex flex-col justify-between"><div class="h-56 relative overflow-hidden bg-surface-container-high"><img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Classic Pan Pizza" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAJdpR7TQgbcwgZdUKDwNscnrXyh4rX_VxbEHCUMtpnVpNpXICwHFQIr7A1uyh_ss0fsA39SqPDKj272k4j4LKyKK3uMhi8xS-NbS1rY0hpLaRK_sPS3rV8WBjyqeJbydJfvANL4CEsdFfk1qy8lYGY-fCErHYHfxKUhpQvrRXt4_cyj9XZuhGf6Rd4cv8zO7GUEjwDLXBfANcRS2JqxW7e87GlRSpZo9KBFgCPKWQz"><span class="absolute top-3 right-3 px-2.5 py-1 rounded bg-surface-container-lowest/80 backdrop-blur-md text-primary font-label-md text-label-md border border-primary/20">Signature</span></div><div class="p-6 flex-1 flex flex-col justify-between space-y-4"><div><div class="flex justify-between items-baseline mb-2"><h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Classic Pan Pizza</h3><span class="font-label-lg text-label-lg text-primary font-semibold">$15.99</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Cast-iron pan baked to a golden crisp perimeter, pillowy airy crumb, rich house marinara, and aged whole-milk mozzarella.</p></div><div class="flex items-center justify-between pt-4 border-t border-outline-variant/15 text-label-sm font-label-sm"><span class="text-tertiary">12" or 16" Sizes</span><button type="button" onclick="addToCart('Classic Pan Pizza', 15.99)" class="text-primary hover:text-primary-fixed border border-primary/30 hover:border-primary/60 px-3 py-1.5 rounded-lg bg-surface-container-high/60 inline-flex items-center gap-1.5 min-h-[40px] font-label-md transition-colors"><span>Add to Order</span><span class="material-symbols-outlined text-[16px]">add_shopping_cart</span></button></div></div></div><div class="group rounded-xl bg-surface-container border border-outline-variant/20 overflow-hidden hover:border-primary/40 transition-all duration-300 amber-glow flex flex-col justify-between"><div class="h-56 relative overflow-hidden bg-surface-container-high"><img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Stonewall Meat Feast" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDi3wUTyZ9d53SNJjgveG35ZEnC4x8vC26yH4E4HMBsZdCg_KMLsRmwK3_GCuJDuWrDe8_GU1XAX-bRID40q5a8yUznz3I63enwC0F3KbPaNC3FmYE1DmWjFXDSOWktzx0G5dHdwZIMwKHayIRYhqRYMBae5q3ZeJc6U9ni-eVeJNPN3aUmAvrA_kpIDmTKCSgB_mxAiznhakgx9M6dwmuWEzOnXExE54ypyC7dHxwb"><span class="absolute top-3 right-3 px-2.5 py-1 rounded bg-secondary-container/80 backdrop-blur-md text-secondary font-label-sm text-label-sm border border-secondary/20">Crowd Favorite</span></div><div class="p-6 flex-1 flex flex-col justify-between space-y-4"><div><div class="flex justify-between items-baseline mb-2"><h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Stonewall Meat Feast</h3><span class="font-label-lg text-label-lg text-primary font-semibold">$18.99</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Heavily layered with cured pepperoni, savory Italian sausage crumble, smoked bacon, and seasoned beef over garlic butter base.</p></div><div class="flex items-center justify-between pt-4 border-t border-outline-variant/15 text-label-sm font-label-sm"><span class="text-tertiary">Hearty Texas Cut</span><button type="button" onclick="addToCart('Stonewall Meat Feast', 18.99)" class="text-primary hover:text-primary-fixed border border-primary/30 hover:border-primary/60 px-3 py-1.5 rounded-lg bg-surface-container-high/60 inline-flex items-center gap-1.5 min-h-[40px] font-label-md transition-colors"><span>Add to Order</span><span class="material-symbols-outlined text-[16px]">add_shopping_cart</span></button></div></div></div><div class="group rounded-xl bg-surface-container border border-outline-variant/20 overflow-hidden hover:border-primary/40 transition-all duration-300 amber-glow flex flex-col justify-between"><div class="h-56 relative overflow-hidden bg-surface-container-high"><img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Harvest Veggie Supreme" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNexS_gVOF93oyGxyZMvxOVeUwfEy2WDqKdzhs8CSkPNoFzb3sSbx_ybNqDxAeoIoDEWsQh42hoj_b3d45K8Ok8AobSZLzKx96jDS8AWs-uqkRutsyFZ1_LQq2nSNFhcOmPk8_sOVyLwr7jYZq3jhr_PkYs-KzsGWGyZNOzV1ptsnbmrWfrTjGz3GLJzKaWp36uAGl8o4Pgy80K0LEKjvaSQrk_78BqtUTWH0G3rpm"></div><div class="p-6 flex-1 flex flex-col justify-between space-y-4"><div><div class="flex justify-between items-baseline mb-2"><h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Harvest Veggie Supreme</h3><span class="font-label-lg text-label-lg text-primary font-semibold">$16.50</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Crisp bell peppers, fire-roasted sweet onions, earthy cremini mushrooms, black olives, and vine tomatoes with Mediterranean oregano.</p></div><div class="flex items-center justify-between pt-4 border-t border-outline-variant/15 text-label-sm font-label-sm"><span class="text-tertiary">Vegetarian Friendly</span><button type="button" onclick="addToCart('Harvest Veggie Supreme', 16.50)" class="text-primary hover:text-primary-fixed border border-primary/30 hover:border-primary/60 px-3 py-1.5 rounded-lg bg-surface-container-high/60 inline-flex items-center gap-1.5 min-h-[40px] font-label-md transition-colors"><span>Add to Order</span><span class="material-symbols-outlined text-[16px]">add_shopping_cart</span></button></div></div></div><div class="group rounded-xl bg-surface-container border border-outline-variant/20 overflow-hidden hover:border-primary/40 transition-all duration-300 amber-glow flex flex-col justify-between"><div class="h-56 relative overflow-hidden bg-surface-container-high"><img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Golden Folded Calzone" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-zcuzECJBqmaDYm8ASUkKkpC7uHaILnl3cIAfSDHcQB8ZQ5G7TgaBvpGeX5bHqTUKT3AOIntA8RkvKtleD3ECMfCzl_rlCInl-ofF28RFoUN2qoexSjOIYX4o3dDvrvfzbe8ohC5e3cAg33krW9mesGEzoUxzgz-rCpSO6lCregHvOSQtvgLrhoY76g7K16zZs11jcLTumTAWv3tbr0j8XdWf4QL0qkcf2Lr4eH9C"><span class="absolute top-3 right-3 px-2.5 py-1 rounded bg-surface-container-lowest/80 backdrop-blur-md text-primary font-label-sm text-label-sm border border-primary/20">Hand-Folded</span></div><div class="p-6 flex-1 flex flex-col justify-between space-y-4"><div><div class="flex justify-between items-baseline mb-2"><h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Golden Folded Calzone</h3><span class="font-label-lg text-label-lg text-primary font-semibold">$13.99</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Stuffed with creamy ricotta, melted provolone, spiced pepperoni or sausage, served with a piping hot ramekin of house marinara.</p></div><div class="flex items-center justify-between pt-4 border-t border-outline-variant/15 text-label-sm font-label-sm"><span class="text-tertiary">Includes Marinara Dip</span><button type="button" onclick="addToCart('Golden Folded Calzone', 13.99)" class="text-primary hover:text-primary-fixed border border-primary/30 hover:border-primary/60 px-3 py-1.5 rounded-lg bg-surface-container-high/60 inline-flex items-center gap-1.5 min-h-[40px] font-label-md transition-colors"><span>Add to Order</span><span class="material-symbols-outlined text-[16px]">add_shopping_cart</span></button></div></div></div><div class="group rounded-xl bg-surface-container border border-outline-variant/20 overflow-hidden hover:border-primary/40 transition-all duration-300 amber-glow flex flex-col justify-between"><div class="h-56 relative overflow-hidden bg-surface-container-high"><img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Stone Hearth Cheese Bread" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAOi05U7YXaitqD5MG1AqjXcgq_ssiphscDydxjSg6k6_ZoCVPK7HmXQ2iz7PzUZKNM9a-M1OGzxWaOHSMNwI4vSV-ZRdUByhcM1pll7DAF-zLpxz0RSgC_o1PHhokPa_PqYKz7fxWKFW4L6As9RgkAhOIGNfAnce0IiDruoFc8UxV4NsB5ynHqbFGfuE29wsslvsU--c0PuSdJkrgCPEkpA_Yo_5uRj9HnICrj42K"></div><div class="p-6 flex-1 flex flex-col justify-between space-y-4"><div><div class="flex justify-between items-baseline mb-2"><h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Stone Hearth Cheese Bread</h3><span class="font-label-lg text-label-lg text-primary font-semibold">$8.99</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Twice-baked pizza dough infused with roasted garlic butter, smothered in three cheeses, and dusted with Pecorino Romano and parsley.</p></div><div class="flex items-center justify-between pt-4 border-t border-outline-variant/15 text-label-sm font-label-sm"><span class="text-tertiary">Perfect Starter</span><button type="button" onclick="addToCart('Stone Hearth Cheese Bread', 8.99)" class="text-primary hover:text-primary-fixed border border-primary/30 hover:border-primary/60 px-3 py-1.5 rounded-lg bg-surface-container-high/60 inline-flex items-center gap-1.5 min-h-[40px] font-label-md transition-colors"><span>Add to Order</span><span class="material-symbols-outlined text-[16px]">add_shopping_cart</span></button></div></div></div><div class="group rounded-xl bg-surface-container border border-outline-variant/20 overflow-hidden hover:border-primary/40 transition-all duration-300 amber-glow flex flex-col justify-between"><div class="h-56 relative overflow-hidden bg-surface-container-high"><img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Smoky BBQ Oven Wings" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAtexd16gaOVLo0Ux4YW-XOFGl4mr6grooxmTVLELGDITWPwsH40DbVopLPN6gLyTXgpq9_n5iL8gz2n_z8kBS1si1kB9ILiZQmzp7uOjNfy6Rv-caas6J4lnAQKBdo7zpFP7toAOkjeEg8E39MIUhIjd6bIrb65bgmfwXoudaoeukPsN-pTKvIc2ESZV1Izx9a_U5Qe4g1wbfhfAUTfY2KwQvcEY4P0L9nvzpwiIqr"></div><div class="p-6 flex-1 flex flex-col justify-between space-y-4"><div><div class="flex justify-between items-baseline mb-2"><h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Smoky BBQ Oven Wings</h3><span class="font-label-lg text-label-lg text-primary font-semibold">$12.50</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Jumbo chicken wings roasted until crisp, tossed in tangy Texas mesquite honey BBQ glaze, served with cool buttermilk ranch.</p></div><div class="flex items-center justify-between pt-4 border-t border-outline-variant/15 text-label-sm font-label-sm"><span class="text-tertiary">8 pcs · Mild or Spicy</span><button type="button" onclick="addToCart('Smoky BBQ Oven Wings', 12.50)" class="text-primary hover:text-primary-fixed border border-primary/30 hover:border-primary/60 px-3 py-1.5 rounded-lg bg-surface-container-high/60 inline-flex items-center gap-1.5 min-h-[40px] font-label-md transition-colors"><span>Add to Order</span><span class="material-symbols-outlined text-[16px]">add_shopping_cart</span></button></div></div></div></div>
+</div>
+</section>
+<!-- FILTERABLE / TABBED MENU SECTION -->
+<section class="py-space-xl bg-surface-container-lowest border-y border-outline-variant/20" id="menu">
+<div class="max-w-[1360px] mx-auto px-6 md:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+<div>
+<span class="font-label-sm text-label-sm text-primary tracking-widest uppercase font-semibold">Carefully Curated</span>
+<h2 class="font-display-md text-headline-lg text-on-surface mt-1">Full Kitchen Menu</h2>
+</div>
+<!-- Category Tab Buttons -->
+<div class="flex flex-wrap gap-2 p-1.5 rounded-lg bg-surface-container border border-outline-variant/30" role="tablist">
+<button class="menu-tab-btn active px-4 py-2 rounded-lg text-label-md font-label-md transition-all bg-primary text-on-primary font-semibold" id="tab-btn-pizzas" onclick="switchTab('pizzas')">Pizzas</button>
+<button class="menu-tab-btn px-4 py-2 rounded-lg text-label-md font-label-md transition-all text-on-surface-variant hover:text-primary" id="tab-btn-calzones" onclick="switchTab('calzones')">Calzones</button>
+<button class="menu-tab-btn px-4 py-2 rounded-lg text-label-md font-label-md transition-all text-on-surface-variant hover:text-primary" id="tab-btn-sides" onclick="switchTab('sides')">Sides &amp; Wings</button>
+<button class="menu-tab-btn px-4 py-2 rounded-lg text-label-md font-label-md transition-all text-on-surface-variant hover:text-primary" id="tab-btn-drinks" onclick="switchTab('drinks')">Drinks &amp; Sweets</button>
+</div>
+</div>
+<!-- Menu Panels Container -->
+<div class="min-h-[380px]" id="tab-content">
+<!-- PANEL: PIZZAS -->
+<div class="menu-panel grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8" id="panel-pizzas">
+<!-- Item 1 -->
+<div class="p-4 rounded-lg bg-surface-container/40 border border-outline-variant/15 hover:border-primary/30 transition-colors">
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">The Aspermont Special</h4>
+<span class="font-label-lg text-label-lg text-primary font-semibold">$17.50</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Pepperoni, Italian sausage, smoked ham, crisp green peppers, red onions, black olives, and extra mozzarella.</p>
+</div>
+<!-- Item 2 -->
+<div class="p-4 rounded-lg bg-surface-container/40 border border-outline-variant/15 hover:border-primary/30 transition-colors">
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Double Pepperoni Crisp</h4>
+<span class="font-label-lg text-label-lg text-primary font-semibold">$15.00</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Stacked layers of artisanal cup-and-char pepperoni with hot honey drizzle and dried oregano.</p>
+</div>
+<!-- Item 3 -->
+<div class="p-4 rounded-lg bg-surface-container/40 border border-outline-variant/15 hover:border-primary/30 transition-colors">
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Texas BBQ Pulled Pork Pizza</h4>
+<span class="font-label-lg text-label-lg text-primary font-semibold">$18.00</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Slow-smoked shredded pork, sweet mesquite BBQ base, sharp cheddar blend, and pickled jalapeños.</p>
+</div>
+<!-- Item 4 -->
+<div class="p-4 rounded-lg bg-surface-container/40 border border-outline-variant/15 hover:border-primary/30 transition-colors">
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">White Garlic &amp; Spinach</h4>
+<span class="font-label-lg text-label-lg text-primary font-semibold">$16.25</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Olive oil and crushed roasted garlic foundation, whole milk ricotta dollops, baby spinach, and aged provolone.</p>
+</div>
+<!-- Item 5 -->
+<div class="p-4 rounded-lg bg-surface-container/40 border border-outline-variant/15 hover:border-primary/30 transition-colors">
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Classic Five-Cheese Pie</h4>
+<span class="font-label-lg text-label-lg text-primary font-semibold">$13.50</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Generous melt of mozzarella, provolone, fontina, white cheddar, and grated Pecorino Romano.</p>
+</div>
+<!-- Item 6 -->
+<div class="p-4 rounded-lg bg-surface-container/40 border border-outline-variant/15 hover:border-primary/30 transition-colors">
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Hawaiian Sunset</h4>
+<span class="font-label-lg text-label-lg text-primary font-semibold">$15.50</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Thick-cut country ham, caramelized golden pineapple, smoked bacon, and fresh scallions.</p>
+</div>
+</div>
+<!-- PANEL: CALZONES (Hidden by default) -->
+<div class="menu-panel hidden grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8" id="panel-calzones">
+<div class="p-4 rounded-lg bg-surface-container/40 border border-outline-variant/15 hover:border-primary/30 transition-colors">
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">The Godfather Calzone</h4>
+<span class="font-label-lg text-label-lg text-primary font-semibold">$14.50</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Stuffed with Italian sausage, genoa salami, ricotta, mozzarella, and garlic butter glaze with dipping marinara.</p>
+</div>
+<div class="p-4 rounded-lg bg-surface-container/40 border border-outline-variant/15 hover:border-primary/30 transition-colors">
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Garden Calzone</h4>
+<span class="font-label-lg text-label-lg text-primary font-semibold">$13.00</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Spinach, roasted mushrooms, sweet bell peppers, red onions, and herb ricotta wrapped in hand-kneaded crust.</p>
+</div>
+<div class="p-4 rounded-lg bg-surface-container/40 border border-outline-variant/15 hover:border-primary/30 transition-colors">
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Buffalo Chicken Calzone</h4>
+<span class="font-label-lg text-label-lg text-primary font-semibold">$14.00</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Tender pulled chicken tossed in cayenne butter sauce with mozzarella and a side of house blue cheese.</p>
+</div>
+<div class="p-4 rounded-lg bg-surface-container/40 border border-outline-variant/15 hover:border-primary/30 transition-colors">
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Custom Build Calzone</h4>
+<span class="font-label-lg text-label-lg text-primary font-semibold">$12.50+</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Includes cheese blend and 2 toppings of your choice with garlic butter crust and house red dipping sauce.</p>
+</div>
+</div>
+<!-- PANEL: SIDES & WINGS (Hidden by default) -->
+<div class="menu-panel hidden grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8" id="panel-sides">
+<div class="p-4 rounded-lg bg-surface-container/40 border border-outline-variant/15 hover:border-primary/30 transition-colors">
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Crispy Garlic Parmesan Wings</h4>
+<span class="font-label-lg text-label-lg text-primary font-semibold">$12.99</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Tossed in clarified butter, roasted minced garlic, freshly grated parmesan cheese, and Italian flat parsley.</p>
+</div>
+<div class="p-4 rounded-lg bg-surface-container/40 border border-outline-variant/15 hover:border-primary/30 transition-colors">
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Stuffed Jalapeño Poppers</h4>
+<span class="font-label-lg text-label-lg text-primary font-semibold">$7.50</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Fresh Texas jalapeños filled with spiced cream cheese and bacon crumbles, oven-broiled to perfection.</p>
+</div>
+<div class="p-4 rounded-lg bg-surface-container/40 border border-outline-variant/15 hover:border-primary/30 transition-colors">
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Cinematic Herb Breadsticks</h4>
+<span class="font-label-lg text-label-lg text-primary font-semibold">$6.00</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Six freshly baked breadsticks glazed with virgin olive oil, rosemary, oregano, and served with marinara.</p>
+</div>
+<div class="p-4 rounded-lg bg-surface-container/40 border border-outline-variant/15 hover:border-primary/30 transition-colors">
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">House Italian Garden Salad</h4>
+<span class="font-label-lg text-label-lg text-primary font-semibold">$6.99</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Crisp romaine, cherry tomatoes, pepperoncini, kalamata olives, red onion, croutons, and house vinaigrette.</p>
+</div>
+</div>
+<!-- PANEL: DRINKS & SWEETS (Hidden by default) -->
+<div class="menu-panel hidden grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8" id="panel-drinks">
+<div class="p-4 rounded-lg bg-surface-container/40 border border-outline-variant/15 hover:border-primary/30 transition-colors">
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Cinnamon Sugar Dough Knots</h4>
+<span class="font-label-lg text-label-lg text-primary font-semibold">$6.50</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Fresh warm dough twists tossed in Saigon cinnamon sugar and drizzled with vanilla cream cheese icing.</p>
+</div>
+<div class="p-4 rounded-lg bg-surface-container/40 border border-outline-variant/15 hover:border-primary/30 transition-colors">
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Southern Sweet Tea (Pitcher / Glass)</h4>
+<span class="font-label-lg text-label-lg text-primary font-semibold">$2.50</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Brewed fresh daily with pure cane sugar and served over crushed ice with fresh lemon wedges.</p>
+</div>
+<div class="p-4 rounded-lg bg-surface-container/40 border border-outline-variant/15 hover:border-primary/30 transition-colors">
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Fountain Sodas &amp; Texas Dr Pepper</h4>
+<span class="font-label-lg text-label-lg text-primary font-semibold">$2.50</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Free refills with dine-in. Classic selections including original Dr Pepper, Coca-Cola, Sprite, and Diet Coke.</p>
+</div>
+<div class="p-4 rounded-lg bg-surface-container/40 border border-outline-variant/15 hover:border-primary/30 transition-colors">
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Chocolate Lava Cake</h4>
+<span class="font-label-lg text-label-lg text-primary font-semibold">$7.00</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Dark cocoa sponge with a molten chocolate center, served warm with powdered sugar dusting.</p>
+</div>
+</div>
+</div>
+<!-- Tab footer notice -->
+<div class="mt-12 text-center text-on-surface-variant font-body-sm text-body-sm border-t border-outline-variant/15 pt-6 flex flex-wrap items-center justify-center gap-4">
+<span>Gluten-free crust and dairy alternatives available upon request.</span>
+<span>•</span>
+<a class="text-primary hover:underline font-semibold" href="tel:+19409893451">Call (940) 989-3451 for daily specials</a>
+</div>
+</div>
+</section>
+<!-- OUR STORY (EDITORIAL SPLIT LAYOUT) -->
+<section class="py-space-xl bg-surface relative overflow-hidden" id="story">
+<div class="max-w-[1360px] mx-auto px-6 md:px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Editorial Image Column with Sprocket Detailing -->
+<div class="lg:col-span-6 relative">
+<div class="relative rounded-xl overflow-hidden border border-outline-variant/30 amber-glow">
+<img class="w-full h-[480px] object-cover filter brightness-90" data-alt="An intimate editorial portrait of an artisan pizza chef in an apron dusting white flour across a dark stone prep table, with a glowing pizza oven in the background casting amber rays in a dimly lit rustic Texas dining room." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBolMsP_Dt8_LoPl6nTWBkDDcES0HcZDzRFvMFE8GiDdSEEPNH_wrKTC3mQ76C-WdYlUTsQptjwcobAFDbCUCxsev20awaY_1HJepGKA7qrApyVoIIJYOGKs1424ldG9hzhp7d5HxaiIFfLS4NFJSGtUmka8jsB0enxyDmSLmun5ftUxWwKrRVA7GR-3hlQgINjUd1lm3ZNUsqfrkHKMLlhUL4GyEMC-Pp4koPz4ANr">
+<div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-surface-container-lowest via-surface-container-lowest/80 to-transparent p-6">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">Heritage &amp; Hearth</span>
+<p class="font-display-md text-headline-sm text-on-surface mt-1">"Rooted on 6th Street in Aspermont, Texas."</p>
+</div>
+</div>
+<!-- Secondary Overlaid Badge Card -->
+<div class="hidden sm:block absolute -bottom-6 -right-6 p-4 rounded-lg bg-surface-container border border-primary/30 amber-glow max-w-xs">
+<p class="font-headline-sm text-headline-sm text-primary">Small-Town Heart</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">From vintage video rental roots to Aspermont’s premier wood-fired dining room.</p>
+</div>
+</div>
+<!-- Editorial Story Text Column -->
+<div class="lg:col-span-6 space-y-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary-container/20 border border-primary/20 text-primary">
+<span class="material-symbols-outlined text-[16px]">history_edu</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Our Heritage</span>
+</div>
+<h2 class="font-display-lg md:text-display-md text-display-md-mobile text-on-surface leading-tight">
+            More Than Great Food — A Living Local Tradition.
+          </h2>
+<div class="w-16 h-0.5 bg-primary/40"></div>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+            In the heart of Stonewall County at 121 W 6th St, Video Express &amp; Pizza was born out of a love for two timeless pastimes: the magic of movie night and the warmth of a handcrafted pie straight from the stone hearth.
+          </p>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Though times have changed, our promise remains untouched. Every crust is proofed with patience, every sauce simmered with vine-ripened tomatoes, and every pie hand-tossed by people who call Aspermont home. We believe community happens around comfortable tables, where laughter echoes and neighbors stay a little longer.
+          </p>
+<!-- Quote Box -->
+<blockquote class="p-4 rounded-lg bg-surface-container-low border-l-2 border-primary italic text-on-surface font-headline-sm text-headline-sm">
+            "We treat every guest who walks through our doors like family seated at our Sunday dinner."
+          </blockquote>
+<!-- Signature Signoff -->
+<div class="pt-4 flex items-center gap-4">
+<div>
+<p class="font-headline-sm text-headline-sm text-primary">The Video Express Family</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Proudly Serving Aspermont &amp; Stonewall County</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CUSTOMER REVIEWS CAROUSEL / TESTIMONIALS -->
+<section class="py-space-xl bg-surface-container-low border-t border-outline-variant/20 relative" id="reviews">
+<div class="max-w-[1360px] mx-auto px-6 md:px-margin">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+<div>
+<span class="font-label-sm text-label-sm text-primary tracking-widest uppercase font-semibold">Community Voices</span>
+<h2 class="font-display-md text-headline-lg text-on-surface mt-1">Loved by Our Guests</h2>
+</div>
+<!-- Google Badge -->
+<div class="flex items-center gap-3 px-4 py-2 rounded-lg bg-surface-container border border-outline-variant/30">
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface font-semibold">4.8 / 5.0 on Google Reviews (59 Reviews)</span>
+</div>
+</div>
+<!-- Real Quotes 3-Card Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Review 1 -->
+<div class="p-8 rounded-xl bg-surface-container border border-outline-variant/25 amber-glow flex flex-col justify-between space-y-6">
+<div class="space-y-3">
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-on-surface italic leading-snug">
+              "Small town feel with really good pizza and super friendly staff."
+            </p>
+</div>
+<div class="border-t border-outline-variant/15 pt-4 flex items-center justify-between">
+<div>
+<p class="font-label-lg text-label-lg text-on-surface font-semibold">Verified Google Reviewer</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Local Guide · Aspermont, TX</p>
+</div>
+<span class="material-symbols-outlined text-outline-variant/50 text-[28px]">format_quote</span>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="p-8 rounded-xl bg-surface-container border border-primary/30 amber-glow flex flex-col justify-between space-y-6 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-24 h-24 bg-primary/5 rounded-bl-full pointer-events-none"></div>
+<div class="space-y-3">
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-on-surface italic leading-snug">
+              "Regular pizzas and calzone... simply delicious!"
+            </p>
+</div>
+<div class="border-t border-outline-variant/15 pt-4 flex items-center justify-between">
+<div>
+<p class="font-label-lg text-label-lg text-on-surface font-semibold">Stonewall Resident</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Dine-in Customer</p>
+</div>
+<span class="material-symbols-outlined text-outline-variant/50 text-[28px]">format_quote</span>
+</div>
+</div>
+<!-- Review 3 -->
+<div class="p-8 rounded-xl bg-surface-container border border-outline-variant/25 amber-glow flex flex-col justify-between space-y-6">
+<div class="space-y-3">
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-on-surface italic leading-snug">
+              "Fresh ingredients, great flavor, and perfectly baked."
+            </p>
+</div>
+<div class="border-t border-outline-variant/15 pt-4 flex items-center justify-between">
+<div>
+<p class="font-label-lg text-label-lg text-on-surface font-semibold">Traveling Guest</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Takeout Order</p>
+</div>
+<span class="material-symbols-outlined text-outline-variant/50 text-[28px]">format_quote</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- VISIT & ORDER SECTION -->
+<section class="py-space-xl bg-surface border-t border-outline-variant/20" id="visit">
+<div class="max-w-[1360px] mx-auto px-6 md:px-margin">
+<div class="text-center max-w-xl mx-auto mb-16 space-y-3">
+<span class="font-label-sm text-label-sm text-primary tracking-widest uppercase font-semibold">Come On In</span>
+<h2 class="font-display-md text-headline-lg text-on-surface">Visit &amp; Order</h2>
+<div class="w-12 h-0.5 bg-primary/40 mx-auto"></div>
+<p class="font-body-md text-body-md text-on-surface-variant">Find us in downtown Aspermont, check our weekly hearth hours, or send an inquiry for large group catering.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<!-- Left: Location Info + Map Placeholder + Hours Table (7 Cols) -->
+<div class="lg:col-span-7 space-y-8">
+<!-- Tap to Call Banner Card -->
+<div class="p-6 rounded-xl bg-surface-container border border-primary/30 flex flex-col sm:flex-row sm:items-center justify-between gap-4 amber-glow">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-lg bg-secondary-container/40 border border-primary/30 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[24px]">call</span>
+</div>
+<div>
+<p class="font-label-sm text-label-sm text-primary uppercase tracking-wider">Direct Order Line</p>
+<a class="font-headline-md text-headline-md text-on-surface hover:text-primary transition-colors" href="tel:+19409893451">
+                  +1 (940) 989-3451
+                </a>
+</div>
+</div>
+<a class="px-5 py-2.5 rounded-lg bg-secondary-container text-on-surface font-label-md text-label-md text-center hover:bg-on-secondary-fixed-variant transition-colors border border-primary/20" href="tel:+19409893451">
+              Tap to Call
+            </a>
+</div>
+<!-- Weekly Hours Schedule Table Starting Monday 11 AM -->
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/20">
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">schedule</span>
+<span>Weekly Hearth Hours</span>
+</h3>
+<div class="divide-y divide-outline-variant/15 text-body-sm font-body-sm">
+<div class="py-2.5 flex justify-between items-center">
+<span class="text-on-surface font-medium">Monday</span>
+<span class="text-primary font-semibold">11:00 AM – 9:00 PM</span>
+</div>
+<div class="py-2.5 flex justify-between items-center">
+<span class="text-on-surface font-medium">Tuesday</span>
+<span class="text-primary font-semibold">11:00 AM – 9:00 PM</span>
+</div>
+<div class="py-2.5 flex justify-between items-center">
+<span class="text-on-surface font-medium">Wednesday</span>
+<span class="text-primary font-semibold">11:00 AM – 9:00 PM</span>
+</div>
+<div class="py-2.5 flex justify-between items-center">
+<span class="text-on-surface font-medium">Thursday</span>
+<span class="text-primary font-semibold">11:00 AM – 9:00 PM</span>
+</div>
+<div class="py-2.5 flex justify-between items-center">
+<span class="text-on-surface font-medium">Friday</span>
+<span class="text-primary font-semibold">11:00 AM – 9:30 PM</span>
+</div>
+<div class="py-2.5 flex justify-between items-center">
+<span class="text-on-surface font-medium">Saturday</span>
+<span class="text-primary font-semibold">11:00 AM – 9:30 PM</span>
+</div>
+<div class="py-2.5 flex justify-between items-center">
+<span class="text-on-surface-variant">Sunday</span>
+<span class="text-on-surface-variant">12:00 PM – 8:00 PM</span>
+</div>
+</div>
+</div>
+<!-- Google Maps Embed Placeholder for 121 W 6th St, Aspermont, TX 79502 -->
+<div class="rounded-xl overflow-hidden border border-outline-variant/25 bg-surface-container relative">
+<div class="p-4 bg-surface-container-high border-b border-outline-variant/20 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">location_on</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">121 W 6th St, Aspermont, TX 79502</span>
+</div>
+<a class="text-primary hover:underline font-label-sm text-label-sm inline-flex items-center gap-1" href="https://maps.google.com/?q=121+W+6th+St,+Aspermont,+TX+79502" rel="noopener noreferrer" target="_blank">
+                Open in Maps <span class="material-symbols-outlined text-[14px]">open_in_new</span>
+</a>
+</div>
+<!-- Map Graphical Representation -->
+<div class="h-64 relative bg-surface-container-highest flex items-center justify-center overflow-hidden" data-location="Aspermont, Texas">
+<img class="w-full h-full object-cover filter brightness-75 contrast-125" data-alt="A detailed, modern dark-themed street cartography map view highlighting Aspermont, Texas with warm gold pinned marker at 121 W 6th St in high visual clarity." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAKbB0EPhD8PFZx44-EUgWKOuiAjPRvKfhakbs2_cQp0lso0zqVN4nH59knAo9TKOCXj0IAed8eVIG3UI5k0XCH06MMZAP-r5TUMy59RDW8sGo2XgJkOe_OluGUX972_0_KrXYxwiXx7Z9_MC6iaZE_6X_C0ELMFQ3ZHNX1xrImsQYri9gtk1SLonlFWUkSysbvL6u9OTaNsnpJccD6g_YlJW2zie6immgWEn_JuoL">
+<div class="absolute inset-0 bg-surface/40 backdrop-blur-[1px] flex flex-col items-center justify-center p-4 text-center">
+<div class="w-12 h-12 rounded-full bg-secondary-container border-2 border-primary flex items-center justify-center text-primary shadow-lg mb-2 animate-bounce">
+<span class="material-symbols-outlined text-[24px]">local_pizza</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-on-surface font-bold">Video Express &amp; Pizza</p>
+<p class="font-body-sm text-body-sm text-primary font-medium">121 W 6th St, Aspermont, TX 79502</p>
+<span class="mt-2 px-3 py-1 rounded bg-surface/90 text-on-surface font-label-sm text-label-sm border border-outline-variant/30">Free Street Parking Available</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Right: Order & Catering Inquiry Form (5 Cols) -->
+<div class="lg:col-span-5 p-8 rounded-xl bg-surface-container border border-outline-variant/25 amber-glow space-y-6">
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest font-semibold">Online Inquiry</span>
+<h3 class="font-display-md text-headline-md text-on-surface mt-1">Catering &amp; Table Inquiry</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Planning a family gathering, school sports celebration, or private screening party? Send us details and we'll confirm promptly.</p>
+</div>
+<form class="space-y-4" onsubmit="handleInquirySubmit(event)">
+<div>
+<label class="block font-label-md text-label-md text-on-surface-variant mb-1" for="name">Your Name</label>
+<input class="w-full px-4 py-2.5 rounded-lg bg-surface-container-lowest border border-outline-variant/30 text-on-surface focus:border-primary focus:ring-1 focus:ring-primary focus:outline-none text-body-md" id="name" placeholder="e.g. Sarah Walker" required="" type="text">
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div>
+<label class="block font-label-md text-label-md text-on-surface-variant mb-1" for="phone">Phone Number</label>
+<input class="w-full px-4 py-2.5 rounded-lg bg-surface-container-lowest border border-outline-variant/30 text-on-surface focus:border-primary focus:ring-1 focus:ring-primary focus:outline-none text-body-md" id="phone" placeholder="(940) 000-0000" required="" type="tel">
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface-variant mb-1" for="party-size">Party Size / Guests</label>
+<select class="w-full px-4 py-2.5 rounded-lg bg-surface-container-lowest border border-outline-variant/30 text-on-surface focus:border-primary focus:ring-1 focus:ring-primary focus:outline-none text-body-md" id="party-size">
+<option value="2-4">2 – 4 Guests</option>
+<option value="5-8">5 – 8 Guests</option>
+<option value="9-15">9 – 15 Guests</option>
+<option value="16+">16+ Guests (Large Catering)</option>
+</select>
+</div>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface-variant mb-1" for="date-time">Requested Date &amp; Time</label>
+<input class="w-full px-4 py-2.5 rounded-lg bg-surface-container-lowest border border-outline-variant/30 text-on-surface focus:border-primary focus:ring-1 focus:ring-primary focus:outline-none text-body-md" id="date-time" placeholder="e.g. Friday at 6:30 PM" type="text">
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface-variant mb-1" for="notes">Special Requests or Order Details</label>
+<textarea class="w-full px-4 py-2.5 rounded-lg bg-surface-container-lowest border border-outline-variant/30 text-on-surface focus:border-primary focus:ring-1 focus:ring-primary focus:outline-none text-body-md resize-none" id="notes" placeholder="Tell us what pizzas or calzones you'd like ready, or details for your celebration..." rows="3"></textarea>
+</div>
+<button class="w-full py-3.5 rounded-lg bg-secondary-container text-on-surface font-label-lg text-label-lg hover:bg-on-secondary-fixed-variant transition-all duration-200 amber-glow border border-primary/20 flex items-center justify-center gap-2" type="submit">
+<span class="material-symbols-outlined text-[18px]">send</span>
+<span>Submit Reservation Request</span>
+</button>
+<p class="hidden text-center text-tertiary font-label-sm text-label-sm pt-2" id="form-feedback">Thank you! Your request has been recorded. We will call to confirm.</p>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- FOOTER (Shared Component JSON Conformance) -->
+<footer class="bg-surface-container-lowest dark:bg-surface-container-lowest docked full-width border-t border-outline-variant/20 dark:border-outline-variant/20 flat no shadows transition-opacity duration-200">
+<div class="w-full px-6 md:px-margin max-w-[1360px] mx-auto py-space-xl flex flex-col gap-8">
+<!-- Top Row: Brand & Back to Top -->
+<div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 border-b border-outline-variant/20 pb-8">
+<div>
+<span class="font-display-md text-headline-lg text-primary dark:text-primary tracking-widest uppercase font-bold">
+            Video Express &amp; Pizza
+          </span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Handcrafted in Aspermont, TX · 121 W 6th St, Aspermont, TX 79502 · (940) 989-3451
+          </p>
+</div>
+<!-- Back to Top Button -->
+<a class="inline-flex items-center gap-2 text-label-sm font-label-sm text-primary hover:underline hover:text-primary transition-all duration-200" href="#">
+<span>Back to Top</span>
+<span class="material-symbols-outlined text-[16px]">arrow_upward</span>
+</a>
+</div>
+<!-- Middle Grid: Footer Navigation Links exactly as specified in JSON -->
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4 text-label-sm font-label-sm">
+<a class="text-on-surface-variant font-normal hover:text-primary hover:underline transition-all duration-200" href="#menu">Menu</a>
+<a class="text-on-surface-variant font-normal hover:text-primary hover:underline transition-all duration-200" href="#visit">Catering &amp; Private Screenings</a>
+<a class="text-on-surface-variant font-normal hover:text-primary hover:underline transition-all duration-200" href="#story">Our Heritage</a>
+<a class="text-on-surface-variant font-normal hover:text-primary hover:underline transition-all duration-200" href="#visit">Hours &amp; Location</a>
+<a class="text-on-surface-variant font-normal hover:text-primary hover:underline transition-all duration-200" href="#reviews">Press &amp; Reviews</a>
+<a class="text-on-surface-variant font-normal hover:text-primary hover:underline transition-all duration-200" href="#">Privacy Policy</a>
+</div>
+<!-- Social Links & Verification -->
+<div class="flex flex-wrap items-center justify-between gap-4 pt-2">
+<div class="flex items-center gap-4 text-on-surface-variant">
+<a class="hover:text-primary transition-colors text-label-sm flex items-center gap-1" href="https://maps.google.com/?q=121+W+6th+St,+Aspermont,+TX+79502" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">map</span> Google Maps
+          </a>
+<span>·</span>
+<a class="hover:text-primary transition-colors text-label-sm flex items-center gap-1" href="tel:+19409893451">
+<span class="material-symbols-outlined text-[16px]">phone</span> Direct Call
+          </a>
+</div>
+</div>
+<!-- Bottom Copyright Line from JSON -->
+<div class="border-t border-outline-variant/10 pt-4 flex flex-col sm:flex-row justify-between text-body-sm font-body-sm text-outline">
+<p>© 2024 Video Express &amp; Pizza. Handcrafted in Aspermont, TX. All cinematic rights reserved.</p>
+<p class="text-label-sm font-label-sm">Small-Town Texas Hospitality</p>
+</div>
+</div>
+</footer>
+<!-- Micro-interactions JavaScript for Navigation & Menu Tabs -->
+<script>
+    // Tab switching for Menu Section
+    function switchTab(categoryId) {
+      // Hide all panels
+      document.querySelectorAll('.menu-panel').forEach(panel => {
+        panel.classList.add('hidden');
+      });
+
+      // Reset button styles
+      document.querySelectorAll('.menu-tab-btn').forEach(btn => {
+        btn.classList.remove('bg-primary', 'text-on-primary', 'font-semibold');
+        btn.classList.add('text-on-surface-variant');
+      });
+
+      // Activate selected panel
+      const targetPanel = document.getElementById('panel-' + categoryId);
+      if (targetPanel) {
+        targetPanel.classList.remove('hidden');
+      }
+
+      // Activate clicked button
+      const activeBtn = document.getElementById('tab-btn-' + categoryId);
+      if (activeBtn) {
+        activeBtn.classList.remove('text-on-surface-variant');
+        activeBtn.classList.add('bg-primary', 'text-on-primary', 'font-semibold');
+      }
+    }
+
+    // Mobile Menu Drawer Toggle
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const mobileDrawer = document.getElementById('mobile-menu');
+
+    if (mobileBtn && mobileDrawer) {
+      mobileBtn.addEventListener('click', () => {
+        mobileDrawer.classList.toggle('hidden');
+      });
+
+      mobileDrawer.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          mobileDrawer.classList.add('hidden');
+        });
+      });
+    }
+
+    // Reservation Inquiry Form Handler
+    function handleInquirySubmit(event) {
+      event.preventDefault();
+      const feedback = document.getElementById('form-feedback');
+      if (feedback) {
+        feedback.classList.remove('hidden');
+      }
+      event.target.reset();
+    }
+  </script>
+
+
+<div id="cart-modal" class="fixed inset-0 z-50 hidden transition-opacity duration-300" aria-labelledby="cart-modal-title" role="dialog" aria-modal="true"><div id="cart-backdrop" class="fixed inset-0 bg-surface-container-lowest/80 backdrop-blur-sm transition-opacity" onclick="closeCartModal()"></div><div class="fixed inset-y-0 right-0 max-w-full flex pl-6"><div class="w-screen max-w-md bg-surface-container border-l border-outline-variant/30 flex flex-col justify-between shadow-2xl relative z-10"><div class="p-6 border-b border-outline-variant/20 flex items-center justify-between bg-surface-container-high"><div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-[24px]">shopping_bag</span><h2 id="cart-modal-title" class="font-headline-sm text-headline-sm text-on-surface">Your Cinema Feast</h2></div><button type="button" onclick="closeCartModal()" aria-label="Close cart" class="text-on-surface-variant hover:text-primary p-2 rounded-lg focus:outline-none min-h-[44px] min-w-[44px] flex items-center justify-center"><span class="material-symbols-outlined text-[20px]">close</span></button></div><div class="p-6 border-b border-outline-variant/20 bg-surface-container/60"><div class="flex rounded-lg bg-surface-container-lowest p-1 border border-outline-variant/30"><button id="fulfillment-pickup" type="button" onclick="setFulfillment('pickup')" class="flex-1 py-2 text-center text-label-sm font-semibold rounded bg-primary text-on-primary transition-all">Pickup at 121 W 6th St</button><button id="fulfillment-curbside" type="button" onclick="setFulfillment('curbside')" class="flex-1 py-2 text-center text-label-sm font-medium text-on-surface-variant rounded hover:text-primary transition-all">Local Curbside</button></div></div><div class="flex-1 overflow-y-auto p-6 space-y-4"><div id="cart-items-container" class="space-y-4"></div><div class="pt-4 border-t border-outline-variant/20"><label for="cart-notes" class="block text-label-sm font-label-sm text-on-surface-variant mb-1.5">Special Hearth or Crust Notes</label><input type="text" id="cart-notes" placeholder="e.g. Well-done crust, ranch on side, etc." class="w-full px-3.5 py-2 rounded-lg bg-surface-container-lowest border border-outline-variant/30 text-on-surface text-body-sm focus:border-primary focus:ring-1 focus:ring-primary focus:outline-none"></div></div><div class="p-6 border-t border-outline-variant/20 bg-surface-container-high space-y-4"><div class="space-y-2 text-body-sm"><div class="flex justify-between text-on-surface-variant"><span>Subtotal</span><span id="cart-subtotal" class="text-on-surface font-medium">$0.00</span></div><div class="flex justify-between text-on-surface-variant"><span>Estimated Tax (8.25%)</span><span id="cart-tax" class="text-on-surface font-medium">$0.00</span></div><div class="flex justify-between text-headline-sm font-semibold text-primary pt-2 border-t border-outline-variant/15"><span>Total</span><span id="cart-total">$0.00</span></div></div><div class="space-y-2 pt-2"><a id="checkout-call-btn" href="tel:+19409893451" class="w-full py-3.5 rounded-lg bg-secondary-container text-on-surface font-label-lg font-semibold hover:bg-on-secondary-fixed-variant transition-colors amber-glow border border-primary/20 flex items-center justify-center gap-2"><span class="material-symbols-outlined text-[18px]">call</span><span>Call In Order (+1 940-989-3451)</span></a><button type="button" onclick="closeCartModal()" class="w-full py-2.5 rounded-lg bg-transparent text-on-surface-variant hover:text-primary text-label-md font-medium transition-colors text-center">Continue Browsing Menu</button></div></div></div></div></div><script>let cart = [{ title: 'Classic Pan Pizza', price: 15.99, quantity: 1 }]; let fulfillmentMethod = 'pickup'; function setFulfillment(method) { fulfillmentMethod = method; const pickupBtn = document.getElementById('fulfillment-pickup'); const curbsideBtn = document.getElementById('fulfillment-curbside'); if (method === 'pickup') { pickupBtn.className = 'flex-1 py-2 text-center text-label-sm font-semibold rounded bg-primary text-on-primary transition-all'; curbsideBtn.className = 'flex-1 py-2 text-center text-label-sm font-medium text-on-surface-variant rounded hover:text-primary transition-all'; } else { curbsideBtn.className = 'flex-1 py-2 text-center text-label-sm font-semibold rounded bg-primary text-on-primary transition-all'; pickupBtn.className = 'flex-1 py-2 text-center text-label-sm font-medium text-on-surface-variant rounded hover:text-primary transition-all'; } } function renderCart() { const container = document.getElementById('cart-items-container'); const countBadge = document.getElementById('cart-count-badge'); const subtotalEl = document.getElementById('cart-subtotal'); const taxEl = document.getElementById('cart-tax'); const totalEl = document.getElementById('cart-total'); if (!container) return; const totalCount = cart.reduce((sum, item) => sum + item.quantity, 0); if (countBadge) countBadge.textContent = totalCount; if (cart.length === 0) { container.innerHTML = '<div class="py-12 text-center text-on-surface-variant"><span class="material-symbols-outlined text-[48px] text-outline-variant/40 mb-2">local_pizza</span><p class="font-headline-sm text-on-surface">Your cart is empty</p><p class="font-body-sm mt-1">Add hot stone hearth pizzas, calzones, or wings to start your feast.</p></div>'; if (subtotalEl) subtotalEl.textContent = '$0.00'; if (taxEl) taxEl.textContent = '$0.00'; if (totalEl) totalEl.textContent = '$0.00'; return; } let subtotal = 0; container.innerHTML = cart.map((item, index) => { const itemSub = item.price * item.quantity; subtotal += itemSub; return `<div class="p-3.5 rounded-lg bg-surface-container-lowest border border-outline-variant/20 flex items-center justify-between gap-3"><div class="flex-1 min-w-0"><h4 class="font-headline-sm text-body-md font-semibold text-on-surface truncate">${item.title}</h4><p class="font-label-sm text-primary font-semibold mt-0.5">$${item.price.toFixed(2)} each</p></div><div class="flex items-center gap-2"><div class="flex items-center border border-outline-variant/30 rounded-lg overflow-hidden bg-surface-container"><button type="button" onclick="updateQuantity(${index}, -1)" class="w-8 h-8 flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container-high text-lg font-bold">-</button><span class="w-7 text-center font-label-md text-on-surface font-semibold">${item.quantity}</span><button type="button" onclick="updateQuantity(${index}, 1)" class="w-8 h-8 flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container-high text-lg font-bold">+</button></div><span class="font-label-lg font-semibold text-on-surface min-w-[54px] text-right">$${itemSub.toFixed(2)}</span><button type="button" onclick="removeFromCart(${index})" aria-label="Remove item" class="text-outline hover:text-error transition-colors p-1"><span class="material-symbols-outlined text-[18px]">delete</span></button></div></div>`; }).join(''); const tax = subtotal * 0.0825; const total = subtotal + tax; if (subtotalEl) subtotalEl.textContent = '$' + subtotal.toFixed(2); if (taxEl) taxEl.textContent = '$' + tax.toFixed(2); if (totalEl) totalEl.textContent = '$' + total.toFixed(2); } function addToCart(title, price) { const existing = cart.find(i => i.title === title); if (existing) { existing.quantity += 1; } else { cart.push({ title, price, quantity: 1 }); } renderCart(); openCartModal(); } function updateQuantity(index, delta) { if (!cart[index]) return; cart[index].quantity += delta; if (cart[index].quantity <= 0) { cart.splice(index, 1); } renderCart(); } function removeFromCart(index) { if (!cart[index]) return; cart.splice(index, 1); renderCart(); } function openCartModal() { const modal = document.getElementById('cart-modal'); if (modal) { modal.classList.remove('hidden'); document.body.style.overflow = 'hidden'; } } function closeCartModal() { const modal = document.getElementById('cart-modal'); if (modal) { modal.classList.add('hidden'); document.body.style.overflow = ''; } } window.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeCartModal(); }); renderCart();</script></body></html>
